@@ -2,10 +2,10 @@ let elem = document.createElement('div');
 let body = document.body;
 elem.innerHTML = '<b>Новый элемент</b>';
 
-function insertAfter(elem, refElem) { /* ваш код */
+function insertAfter(elem, refElem) {
   return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
 }
-insertAfter(elem, body.firstChild); // <--- должно работать
+insertAfter(elem, body.firstChild);
 
 // setTimeout( () => {
 //   return insertAfter(elem, body.lastChild)
@@ -30,10 +30,11 @@ insertAfter(elem, body.firstChild); // <--- должно работать
 //     }
 
 let div = document.getElementById('field');
+let ball = document.getElementById('ball')
+ball.style.left = (div.clientWidth / 2) - (ball.clientWidth) / 2 + 'px';
+ball.style.top = (div.clientHeight / 2) - (ball.clientHeight) / 2 + 'px';
 
-div.style.display='flex';
-div.style.justifyContent='center';
-div.style.alignItems='center';
+//список ul из объекта
 
 let data = {
   "Рыбы": {
@@ -53,35 +54,28 @@ let data = {
   }
 };
 
-
 let container = document.getElementById('container');
-    container.appendChild(createTree(container, data));
 
 function createTree(element, obj) {
+
   let ul = document.createElement('ul');
-  Object.keys(obj).map((key) => {
-    let li = document.createElement('li');
-    li.innerHTML = key;
-    ul.appendChild(li);
-  });
+      ul.innerHTML = Object.keys(obj).map((key) => {
+
+      function f(elem) {
+
+        let li = document.createElement('li');
+            li.innerHTML = Object.values(obj).map((key)=> {
+
+              return key;
+            });
+        return elem.appendChild(li);
+      }
+      f(ul);
+
+      return key;
+    });
   return element.appendChild(ul);
 }
 
-let getKeys = function(obj) {
-  let ul = document.createElement('ul');
-  Object.keys(obj).map((key) => {
-    let ul = document.createElement('ul');
-    let li = document.createElement('li');
-    li.innerHTML = key;
-    console.log(key);
-    Object.keys(obj[key]).map( (key) =>{
-      let li = document.createElement('li');
-      li.innerHTML = key;
-      console.log(ul.appendChild(li));
-      console.log(key);
-      return ul.appendChild(li);
-    })
-  })
-  return ul;
-};
-getKeys(data);
+createTree(container, data);
+

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b85af7c5-f1c6-4c1d-afe4-aa3b8406400c" name="Default Changelist" comment="" />
+    <list default="true" id="b85af7c5-f1c6-4c1d-afe4-aa3b8406400c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -26,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/js.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -37,13 +39,6 @@
             <state relative-caret-position="700">
               <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/Downloads/OptimizedHTML-4-master/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-993" />
           </provider>
         </entry>
       </file>
@@ -58,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -70,11 +68,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="55" />
-    <option name="width" value="1457" />
+    <option name="x" value="949" />
+    <option name="y" value="11" />
+    <option name="width" value="972" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -84,7 +83,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../NIce-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dom 2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -124,15 +123,16 @@
       <workItem from="1546697283883" duration="9643000" />
       <workItem from="1546775879209" duration="10929000" />
       <workItem from="1547045235843" duration="773000" />
+      <workItem from="1547052310844" duration="11000" />
+      <workItem from="1547052338895" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65224000" />
+    <option name="totallyTimeSpent" value="65247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="55" width="1457" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="949" y="11" width="972" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17176703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -187,6 +187,9 @@
     <entry file="file://$PROJECT_DIR$/../alert/js.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://D:/Downloads/OptimizedHTML-4-master/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -197,7 +200,7 @@
     <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -206,11 +209,6 @@
         <state relative-caret-position="700">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Downloads/OptimizedHTML-4-master/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-993" />
       </provider>
     </entry>
   </component>

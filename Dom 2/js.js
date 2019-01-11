@@ -30,7 +30,7 @@ insertAfter(elem, body.firstChild);
 //     }
 
 let div = document.getElementById('field');
-let ball = document.getElementById('ball')
+let ball = document.getElementById('ball');
 ball.style.left = (div.clientWidth / 2) - (ball.clientWidth) / 2 + 'px';
 ball.style.top = (div.clientHeight / 2) - (ball.clientHeight) / 2 + 'px';
 
@@ -78,4 +78,17 @@ function createTree(element, obj) {
 }
 
 createTree(container, data);
+
+//календарь в таблице
+function createCalendar(id, year, month) {
+  let div = document.getElementById('id');
+  let date = new Date(year, month - 1);
+  let table = '<table><tr><th>пн</th><th>вт</th><th>ср</th><th>чт</th><th>пт</th><th>сб</th><th>вс</th></tr><tr>';
+  for (var i = 0; i < getDay(date); i++) {
+    table += '<td></td>';
+  }
+  div.innerHTML = table;
+
+};
+createCalendar("cal", 2012, 9);
 

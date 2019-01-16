@@ -48,12 +48,12 @@ let data = {
       "Ель": {}
     },
     "Цветковые": {
-      "Берёза": {},
+        "Берёза": {},
       "Тополь": {}
     }
   }
 };
-
+()=> {}
 let container = document.getElementById('container');
 
 function createTree(element, obj) {

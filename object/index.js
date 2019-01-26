@@ -74,7 +74,6 @@ function isEmpty(obj) {
 //     return false;
 // }
 
-
 // выводит имя сотрудника с наибольшей зарплатой
 let salaries = {
     "Вася": 100,
@@ -98,3 +97,52 @@ function isMax(obj, flag) {
 }
 
 isMax(salaries, isEmpty(salaries));
+
+
+// let calculator = {
+//     read:  function() {
+//         this.a = +prompt('number', '');
+//         this.b = +prompt('number', '');
+//     },
+//     sum: function () {
+//         return this.a + this.b
+//     },
+//     mul: function () {
+//         return this.a * this.b
+//     },
+// };
+// calculator.read();
+// console.log(calculator.sum());
+// console.log(calculator.mul());
+
+// let ladder = {
+//     step: 0,
+//     up: function() { // вверх по лестнице
+//         this.step++;
+//         return this
+//     },
+//     down: function() { // вниз по лестнице
+//         this.step--;
+//         return this
+//     },
+//     showStep: function() { // вывести текущую ступеньку
+//         console.log( this.step );
+//         return this
+//     }
+// };
+// ladder.up();
+// ladder.up();
+// ladder.up();
+// ladder.down();
+// ladder.showStep();
+
+// function sumArgs() {
+//
+//    return [].reduce.call( arguments, function (a, b) {
+//        return a + b
+//    })
+// }
+//
+// console.log(sumArgs( 1, 2, 3, 4));
+
+

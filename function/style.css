@@ -1,0 +1,36 @@
+.menu {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.container {
+    width: 390px;
+    /*overflow: hidden;*/
+    background-color: darkgrey;
+    border-radius: 20px;
+    position: relative;
+}
+
+.slider {
+    width: 1300px;
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.control {
+    position: absolute;
+    width: 390px;
+    top: 50%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+
+}

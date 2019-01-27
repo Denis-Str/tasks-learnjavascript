@@ -44,43 +44,48 @@
 // метод
 // setTimeout(box.func.bind(box), 2000);
 
-
-// function work(a) {
-//     /* ... */ // work - произвольная функция, один аргумент
-//     // console.log('function work ==> ' + a)
+// function work(a, b) {
+//    // work - произвольная функция
 // }
-
-function work(a, b) {
-    alert( a + b ); // work - произвольная функция
-}
-
-
-function makeLogging(f, log) {
-
-    function wrap(log) {
-        let log = [].call(arguments, f);
-        // log.push(a);
-        return f.call(this, log);
-    }
-    return wrap
-}
-
-let log = [];
-
-work = makeLogging(work, log);
-
+//
+// function makeLogging(f, log) {
+//     function wrap(a) {
+//         log.push(a);
+//         return f.call(this, a);
+//     }
+//     return wrap
+// }
+// let log = [];
+// work = makeLogging(work, log);
+//
 // work(1); // 1, добавлено в log
 // work(5); // 5, добавлено в log
-//
 //
 // for (let i = 0; i < log.length; i++) {
 //     alert( 'Лог:' + log[i] ); // "Лог:1", затем "Лог:5"
 // }
 
-work(1, 2); // 3
-work(4, 5); // 9
+// function work(a, b) {
+//     alert( a + b ); // work - произвольная функция
+// }
+//
+// function makeLogging(f, log) {
+//     /* ваш код */
+//     function wrap() {
+//         log.push([].slice.call(arguments));
+//         return f.apply(this)
+//     }
+//     return wrap
+// }
+//
+// let log = [];
+// work = makeLogging(work, log);
+//
+// work(1, 2); // 3
+// work(4, 5); // 9
+//
+// for (let i = 0; i < log.length; i++) {
+//     let args = log[i]; // массив из аргументов i-го вызова
+//     alert('Лог:' + args.join()); // "Лог:1,2", "Лог:4,5"
+// };
 
-for (let i = 0; i < log.length; i++) {
-    let args = log[i]; // массив из аргументов i-го вызова
-    alert( 'Лог:' + args.join() ); // "Лог:1,2", "Лог:4,5"
-}

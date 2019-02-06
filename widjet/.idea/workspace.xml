@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dd7e7b3-0f1e-47c8-ad0c-6b56570db881" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="643">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1549447004636" expanded="true" signature="165:303" ph="..." />
+                <marker date="1549451420638" expanded="true" signature="165:303" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,12 +121,12 @@
       <workItem from="1545157817439" duration="13000" />
       <workItem from="1549367799363" duration="11717000" />
       <workItem from="1549442426675" duration="4173000" />
-      <workItem from="1549446984792" duration="631000" />
+      <workItem from="1549446984792" duration="3829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22396000" />
+    <option name="totallyTimeSpent" value="25594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1081" y="0" width="844" height="1047" extended-state="0" />
@@ -181,11 +181,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="643">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1549447004636" expanded="true" signature="165:303" ph="..." />
+            <marker date="1549451420638" expanded="true" signature="165:303" ph="..." />
           </folding>
         </state>
       </provider>

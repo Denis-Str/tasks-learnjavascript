@@ -20,7 +20,6 @@
 //      clock()
 // }, 1000);
 
-
 class Component {
     constructor (element) {
         this.element = element;
@@ -30,6 +29,9 @@ class Component {
 class Clock extends Component {
     constructor(element) {
         super(element);
+        setInterval( () => {
+            this.render()
+        }, 1000)
     }
 
    render () {
@@ -40,9 +42,6 @@ class Clock extends Component {
         (this.min < 10) ? this.min = '0' + date.getMinutes() : date.getMinutes();
         (this.sec < 10) ? this.sec = '0' + date.getSeconds() : date.getSeconds();
         this.element.innerHTML = `${ this.hour + ':' + this.min + ':' + this.sec  }`;
-        setInterval( () => {
-            this.render()
-        }, 1000)
    }
    stop () {
        let stop = document.getElementById('stop');
@@ -52,9 +51,4 @@ class Clock extends Component {
    }
 }
 
-let clock = new  Clock(document.getElementById('clock'));
-
-// setInterval(()=> {
-//     clock.render();
-// }, 1000);
-clock.render();
+new  Clock(document.getElementById('clock'));

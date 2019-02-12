@@ -27,12 +27,21 @@ class Component {
 }
 
 class Clock extends Component {
+
     constructor(element) {
         super(element);
         setInterval( () => {
             this.render()
-        }, 1000)
+        }, 1000);
+        let  stop = document.getElementById('stop');
+        stop.addEventListener('click', () => {
+            alert('stop')
+        })
     }
+
+    static stop () {
+        alert('stop')
+    };
 
    render () {
         let date = new Date();
@@ -42,12 +51,6 @@ class Clock extends Component {
         (this.min < 10) ? this.min = '0' + date.getMinutes() : date.getMinutes();
         (this.sec < 10) ? this.sec = '0' + date.getSeconds() : date.getSeconds();
         this.element.innerHTML = `${ this.hour + ':' + this.min + ':' + this.sec  }`;
-   }
-   stop () {
-       let stop = document.getElementById('stop');
-       stop.addEventListener('click', ()=> {
-           alert('stop')
-       });
    }
 }
 

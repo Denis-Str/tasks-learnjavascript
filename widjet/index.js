@@ -63,6 +63,7 @@ class Count {
         this.count = 0;
         let up = document.querySelector('.up');
         let down = document.querySelector('.down');
+
         up.addEventListener('click', () => {
             this.up();
         });
@@ -78,9 +79,11 @@ class Count {
 
     up() {
         ++this.count;
+        this.render();
     }
     down() {
         --this.count;
+        this.render();
     }
 }
 

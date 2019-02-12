@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dd7e7b3-0f1e-47c8-ad0c-6b56570db881" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,17 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../widjet/index.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="17" column="9" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -41,11 +30,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+            <state relative-caret-position="689">
+              <caret line="105" column="25" selection-start-line="91" selection-start-column="3" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1549986974479" expanded="true" signature="165:303" ph="..." />
+                <marker date="1549990223474" expanded="true" signature="165:303" ph="..." />
+                <marker date="1549990223474" expanded="true" signature="2138:2139" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,18 +127,18 @@
       <workItem from="1549543050298" duration="2512000" />
       <workItem from="1549708898908" duration="1970000" />
       <workItem from="1549979722985" duration="12000" />
-      <workItem from="1549986354118" duration="990000" />
+      <workItem from="1549986354118" duration="2047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33919000" />
+    <option name="totallyTimeSpent" value="34976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="418" y="0" width="1507" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18181819" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1817563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.249066" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,18 +184,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        <state relative-caret-position="689">
+          <caret line="105" column="25" selection-start-line="91" selection-start-column="3" selection-end-line="105" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1549986974479" expanded="true" signature="165:303" ph="..." />
+            <marker date="1549990223474" expanded="true" signature="165:303" ph="..." />
+            <marker date="1549990223474" expanded="true" signature="2138:2139" ph="..." />
           </folding>
         </state>
       </provider>

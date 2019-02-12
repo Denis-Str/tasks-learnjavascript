@@ -55,3 +55,49 @@ class Clock extends Component {
 }
 
 new  Clock(document.getElementById('clock'));
+
+
+class Count {
+    constructor (element) {
+        this.element = element;
+        this.count = 0;
+        let up = document.querySelector('.up');
+        let down = document.querySelector('.down');
+        up.addEventListener('click', () => {
+            this.up();
+        });
+        down.addEventListener('click', () => {
+            this.down();
+        });
+        this.render();
+    }
+
+    render() {
+        this.element.innerHTML = `${ this.count }`;
+    }
+
+    up() {
+        ++this.count;
+    }
+    down() {
+        --this.count;
+    }
+}
+
+new Count(document.querySelector('.vote'));
+
+// let vote = document.querySelector('.vote');
+// let up = document.querySelector('.up');
+// let down = document.querySelector('.down');
+//
+// function count(elem, up, down) {
+//   let count = 0;
+//   up.addEventListener('click', () => {
+//     elem.innerHTML = `${ ++count }`;
+//   });
+//
+//   down.addEventListener('click', () => {
+//     elem.innerHTML = `${ --count }`;
+//   });
+// }
+// count(vote, up, down);
